@@ -36,5 +36,3 @@ Die dokumentierten Regelsätze, die angewendet werden, um den Zugriff zu gewähr
 * Rollen
 
 die Berechtigungen richtig festlegen können, verwenden sie Richtlinien. Richtlinien werden in JSON geschrieben und Sie können entweder benutzerdefinierte Richtlinien für Ihre spezifischen Anforderungen oder die von AWS festgelegten Standardrichtlinien verwenden.
-
-[Der Entwurf eines Sicheren Zugriffs](docs/IAMusecase.md)
