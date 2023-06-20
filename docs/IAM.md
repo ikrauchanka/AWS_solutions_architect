@@ -17,5 +17,6 @@ eine beliebige Ansammlung ähnlicher Personen mit gemeinsamen Berechtigungen, z.
 * Systemadministratoren,
 * HR-Mitarbeiter,
 * Finanzteams usw.
+
 Jeder Benutzer innerhalb der angegebenen Gruppe erbt die für die Gruppe festgelegten Berechtigungen.
 
