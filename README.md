@@ -5,11 +5,9 @@ Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum AWS Cer
 
 1. Einführung
 
-2. [IAM](docs/IAM.md)
-   Identity Access Management
+2. [IAM](docs/IAM.md) (Identity Access Management)
 
 3. S-imple S-torage S-ervice, 
    [s3](docs/s3.md)
 
-4. [Cloud Front](docs/CloudFront.md), CDN 
-   Content Delivery Network
+4. [Cloud Front](docs/CloudFront.md), CDN (Content Delivery Network)
