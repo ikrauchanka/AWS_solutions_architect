@@ -20,3 +20,9 @@ eine beliebige Ansammlung ähnlicher Personen mit gemeinsamen Berechtigungen, z.
 
 Jeder Benutzer innerhalb der angegebenen Gruppe erbt die für die Gruppe festgelegten Berechtigungen.
 
+### Rollen:
+jeder Softwareservice, der Berechtigungen benötigt, um seine Aufgabe zu erfüllen, z. B. 
+* AWS Lambda, das Schreibberechtigungen für S3 benötigt, oder eine 
+* Flotte von EC2-Instanzen, die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
+
+
