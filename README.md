@@ -9,7 +9,7 @@ Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum AWS Cer
    Identity Access Management
 
 3. S-imple S-torage S-ervice, 
-   s3 [Einfacher Speicherdienst]
+   [s3](docs/s3.md)
 
-4. Cloud Front, CDN 
-   [Netzwerk für die Bereitstellung von Inhalten] Content Delivery Network
+4. [Cloud Front](docs/CloudFront.md), CDN 
+   Content Delivery Network
