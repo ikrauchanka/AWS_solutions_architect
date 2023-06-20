@@ -29,4 +29,10 @@ das Schreibberechtigungen für S3 benötigt, oder eine
 
 die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
 
+### Richtlinien:
+Die dokumentierten Regelsätze, die angewendet werden, um den Zugriff zu gewähren oder einzuschränken. Damit 
+* Benutzer,
+* Gruppen oder
+* Rollen
 
+die Berechtigungen richtig festlegen können, verwenden sie Richtlinien. Richtlinien werden in JSON geschrieben und Sie können entweder benutzerdefinierte Richtlinien für Ihre spezifischen Anforderungen oder die von AWS festgelegten Standardrichtlinien verwenden.
