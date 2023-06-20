@@ -7,13 +7,13 @@
 ## IAM [Entitäten](https://de.wikipedia.org/wiki/Entität)
 
 ### Benutzer:
-jeder einzelne Endbenutzer, z. B. ein 
+Jeder einzelne Endbenutzer, z. B. ein 
 * Mitarbeiter,
 * Systemarchitekt,
 * CTO usw.
 
 ### Gruppen: 
-eine beliebige Ansammlung ähnlicher Personen mit gemeinsamen Berechtigungen, z. B. 
+Eine beliebige Ansammlung ähnlicher Personen mit gemeinsamen Berechtigungen, z. B. 
 * Systemadministratoren,
 * HR-Mitarbeiter,
 * Finanzteams usw.
@@ -21,8 +21,12 @@ eine beliebige Ansammlung ähnlicher Personen mit gemeinsamen Berechtigungen, z.
 Jeder Benutzer innerhalb der angegebenen Gruppe erbt die für die Gruppe festgelegten Berechtigungen.
 
 ### Rollen:
-jeder Softwareservice, der Berechtigungen benötigt, um seine Aufgabe zu erfüllen, z. B. 
-* AWS Lambda, das Schreibberechtigungen für S3 benötigt, oder eine 
-* Flotte von EC2-Instanzen, die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
+Jeder Softwareservice, der Berechtigungen benötigt, um seine Aufgabe zu erfüllen, z. B. 
+* AWS Lambda,
+
+das Schreibberechtigungen für S3 benötigt, oder eine 
+* eine Flotte von EC2-Instanzen,
+
+die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
 
 
