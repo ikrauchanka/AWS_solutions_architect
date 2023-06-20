@@ -1,12 +1,9 @@
 # Der Entwurf eines sichern Zugriffs auf AWS Ressourcen
 
-## 1) IAM Rollen und Benutzer erstellen.
-
-	* IAM Rollen für verschiedene:
-
-	** Aufgaben
-
-	** Funktionen
+## IAM Rollen und Benutzer erstellen
+IAM Rollen für verschiedene:
+* Aufgaben
+* Funktionen
 
 	- IAM Benutzerkonnten für Einzelpersonen
 
