@@ -1,11 +1,11 @@
 # Der Entwurf eines sichern Zugriffs auf AWS Ressourcen
 
 ## 1. IAM Rollen und Benutzer erstellen
-a) IAM Rollen für verschiedene:
++ IAM Rollen für verschiedene:
 * Aufgaben
 * Funktionen
-b) IAM Benutzerkonnten für Einzelpersonen
-c) Passwortvergabe und MFA (Multi-Faktor-Authentifizierungs)- Aktivierung
++ IAM Benutzerkonnten für Einzelpersonen
++ Passwortvergabe und MFA (Multi-Faktor-Authentifizierungs)- Aktivierung
 
 ## 2. Berechtigungen und Zugriffsrichtlinien verwalten.
 a) Definition von Berechtigungen, mit Hilfe von:
