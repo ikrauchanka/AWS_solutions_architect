@@ -1,5 +1,5 @@
 # AWS Solutions Architect [Studierleitfaden] deutsch
-Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum AWS Certified Solutions Architect - Associate zu bestehen. Er gibt dir einen kompletten Überblick über die prüfungsrelevanten Themen.
+Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum [AWS Certified Solutions Architect - Associate](https://aws.amazon.com/de/certification/) zu bestehen. Er gibt dir einen kompletten Überblick über die prüfungsrelevanten Themen.
 
 ## Überblick über die Inhalte:
 
@@ -11,3 +11,5 @@ Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum AWS Cer
    [s3](docs/s3.md)
 
 4. [Cloud Front](docs/CloudFront.md), CDN (Content Delivery Network)
+
+5. [Snow Ball](docs/SnowBall.md)
