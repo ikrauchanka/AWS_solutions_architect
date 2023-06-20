@@ -33,9 +33,7 @@ Verwendung der VPC (virtual private cloud) um:
 * Netzwerksegmentierung, und
 * isolierte Umgebungen zu ermöglichen...
 
-Konfiguration der
-* Sicherheitsgruppen
-* Netzwerk ACL's, um:
+Konfiguration der Sicherheitsgruppen, und Netzwerk ACL's, um:
 - den Datenverkehr zu kontrollieren, und
 - unerlaubte Zugriffe zu blockieren...
 
