@@ -1,29 +1,21 @@
 # Der Entwurf eines sichern Zugriffs auf AWS Ressourcen
 
 ## IAM Rollen und Benutzer erstellen
-IAM Rollen für verschiedene:
++ IAM Rollen für verschiedene:
 * Aufgaben
 * Funktionen
++ IAM Benutzerkonnten für Einzelpersonen
++ Passwortvergabe und MFA (Multi-Faktor-Authentifizierungs)- Aktivierung
 
-	- IAM Benutzerkonnten für Einzelpersonen
+## 2) Berechtigungen und Zugriffsrichtlinien verwalten.
++ Definition von Berechtigungen, mit Hilfe von:
+* Zugriffsrichtlinien
+* d. Prinzip der geringsten Privilegien
++ regelmäßige Kontrolle der Zugriffsrichtlinien, um sicherzustellen, dass sie:
+* den aktuellen Anforderungen entsprechen
+* noch nötig sind.
 
-	- Passwortvergabe und MFA (Multi-Faktor-Authentifizierungs)- Aktivierung
-
-2) Berechtigungen und Zugriffsrichtlinien verwalten.
-
-	- Definition von Berechtigungen, mit Hilfe von:
-
-	a) Zugriffsrichtlinien
-
-	b) d. Prinzip der geringsten Privilegien
-
-	- regelmäßige Kontrolle der Zugriffsrichtlinien, um sicherzustellen, dass sie:
-
-	a) den aktuellen Anforderungen entsprechen
-
-	b) noch nötig sind.
-
-3) Verwaltung des Verbundzugriffes
+## 3) Verwaltung des Verbundzugriffes
 
 	- Implementation des Single-Sign-On Zugriff [SSO], um:
 
