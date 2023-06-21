@@ -29,7 +29,7 @@ den Verbund mit externen Identitätsanbietern zu konfigurieren, um:
 * sichere Authentifizierung zu ermöglichen...
 
 ## 4. Netzwerksicherheit gewährleisten
-Verwendung der [VPC](../docs/services/VPC.md) (virtual private cloud) um:
+Verwendung der [VPC](../services/VPC.md) (virtual private cloud) um:
 * Netzwerksegmentierung, und
 * isolierte Umgebungen zu ermöglichen...
 
