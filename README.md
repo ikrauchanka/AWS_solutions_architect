@@ -5,7 +5,7 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 
 1. Einführung ([Exam Guide](docs/pdfs/Exam-Guide.pdf)) [AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-2. [IAM](docs/services/IAM.md) (Identity Access Management) [Entwurf eines sichern Zugriffs](docs/practice/drafts/IAM_usecase.md)
+2. [IAM](docs/services/IAM.md) ([Identity Access Management](docs/practice/commandLine/access_management.md)) [Entwurf eines sichern Zugriffs](docs/practice/drafts/IAM_usecase.md)
 
 3. S-imple S-torage S-ervice, 
    [s3](docs/services/s3.md)
