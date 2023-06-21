@@ -10,3 +10,11 @@
 ## MFA für den IAM Benutzer aktivieren
 `aws iam enable-mfa-device --user-name <user-name> --serial-number <mfa-serial-number> --authentication-code1 <code1> --authentication-code2 <code2>`
 
+## Zugriffsrichtlinie erstellen
+`aws iam create-policy --policy-name <policy-name> --policy-document file://policy.json`
+
+## Richtlinie einer Rolle oder eines Benutzers hinzufügen
+`aws iam attach-role-policy --role-name <role-name> --policy-arn <policy-arn>`
+
+## Aktuelle Zugriffsrichtlinien anzeigen
+`aws iam list-policies`
