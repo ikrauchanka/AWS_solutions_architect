@@ -3,7 +3,7 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 
 ## Überblick über die Inhalte:
 
-1. Einführung
+1. Einführung [Exam Guide](pdfs/Exam-Guide.pdf)
 
 2. [IAM](docs/services/IAM.md) (Identity Access Management) [Entwurf eines sichern Zugriffs](docs/practice/drafts/IAM_usecase.md)
 
