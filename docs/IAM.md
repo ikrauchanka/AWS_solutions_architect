@@ -35,4 +35,4 @@ Die dokumentierten Regelsätze, die angewendet werden, um den Zugriff zu gewähr
 * Gruppen oder
 * Rollen
 
-die Berechtigungen richtig festlegen können, verwenden sie Richtlinien. Richtlinien werden in JSON geschrieben und Sie können entweder benutzerdefinierte Richtlinien für Ihre spezifischen Anforderungen oder die von AWS festgelegten Standardrichtlinien verwenden.
+die Berechtigungen richtig festlegen können, verwenden sie Richtlinien. Richtlinien werden in [JSON](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) geschrieben und Sie können entweder benutzerdefinierte Richtlinien für Ihre spezifischen Anforderungen oder die von AWS festgelegten Standardrichtlinien verwenden.
