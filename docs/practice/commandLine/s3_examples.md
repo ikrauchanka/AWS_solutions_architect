@@ -7,4 +7,4 @@
 ## error.html hochladen
 `aws s3 cp error.html s3://dein-bucket-name/`
 
-[Zurück zum Leitfaden](../../README.md)
+[Zurück zum Leitfaden](../../../README.md)
