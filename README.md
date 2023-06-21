@@ -10,6 +10,6 @@ Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum [AWS Ce
 3. S-imple S-torage S-ervice, 
    [s3](docs/s3.md)
 
-4. [Cloud Front](docs/CloudFront.md), CDN (Content Delivery Network)
+4. [Cloud Front](docs/services/CloudFront.md), CDN (Content Delivery Network)
 
-5. [Snow Ball](docs/SnowBall.md)
+5. [Snow Ball](docs/services/SnowBall.md)
