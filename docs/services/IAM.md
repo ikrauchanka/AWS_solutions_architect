@@ -25,7 +25,7 @@ Jeder Softwareservice, der Berechtigungen benötigt, um seine Aufgabe zu erfüll
 * AWS [Lambda](../services/Lambda.md),
 
 das Schreibberechtigungen für [S3](../services/s3.md) benötigt, oder eine 
-* eine Flotte von [EC2](docs/EC2.md)-Instanzen,
+* eine Flotte von [EC2](../services/EC2.md)-Instanzen,
 
 die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
 
