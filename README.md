@@ -5,7 +5,7 @@ Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum [AWS Ce
 
 1. Einführung
 
-2. [IAM](docs/IAM.md) (Identity Access Management) [Entwurf eines sichern Zugriffs](docs/practice/drafts/IAM_usecase.md)
+2. [IAM](services/docs/IAM.md) (Identity Access Management) [Entwurf eines sichern Zugriffs](docs/practice/drafts/IAM_usecase.md)
 
 3. S-imple S-torage S-ervice, 
    [s3](docs/s3.md)
