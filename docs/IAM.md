@@ -22,9 +22,9 @@ Jeder Benutzer innerhalb der angegebenen Gruppe erbt die für die Gruppe festgel
 
 ### Rollen:
 Jeder Softwareservice, der Berechtigungen benötigt, um seine Aufgabe zu erfüllen, z. B. 
-* AWS Lambda,
+* AWS [Lambda](docs/Lambda.md),
 
-das Schreibberechtigungen für S3 benötigt, oder eine 
+das Schreibberechtigungen für [S3](docs/s3.md) benötigt, oder eine 
 * eine Flotte von EC2-Instanzen,
 
 die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
