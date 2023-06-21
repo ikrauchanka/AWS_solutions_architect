@@ -10,7 +10,7 @@
 Jeder einzelne Endbenutzer, z. B. ein 
 * Mitarbeiter,
 * Systemarchitekt,
-* CTO usw.
+* CTO (Chief Technology Officer) usw.
 
 ### Gruppen: 
 Eine beliebige Ansammlung ähnlicher Personen mit gemeinsamen Berechtigungen, z. B. 
