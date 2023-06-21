@@ -34,4 +34,4 @@ ausführst. Dies sollte Informationen über deinen IAM-Benutzer zurückgeben.
 
 Bitte beachte, dass die genauen Schritte je nach Betriebssystem variieren können. Stelle sicher, dass du die offizielle AWS-Dokumentation für detaillierte Anweisungen zu Installation und Konfiguration der AWS CLI konsultierst.
 
-[Zurück zum Leitfaden](../../README.md)
+[Zurück zum Leitfaden](../../../README.md)
