@@ -43,7 +43,7 @@ Implementation einer sicheren Datenübertragung über:
 ## 5. Überwachung und Protokollierung
 Aktivierung des [Cloud Trail](../../../docs/services/CloudTrail.md) Protokollierungstool, um:
 alle Aktionen auf dem AWS Konto aufzuzeichnen.
-Einbindung von Cloud Watch um Alarme für:
+Einbindung von [Cloud Watch](../../../docs/services/CloudWatch.md) um Alarme für:
 - verdächtige Aktivitäten
 - oder Anomalien
 
