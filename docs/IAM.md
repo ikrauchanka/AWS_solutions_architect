@@ -24,7 +24,7 @@ Jeder Benutzer innerhalb der angegebenen Gruppe erbt die für die Gruppe festgel
 Jeder Softwareservice, der Berechtigungen benötigt, um seine Aufgabe zu erfüllen, z. B. 
 * AWS [Lambda](services/Lambda.md),
 
-das Schreibberechtigungen für [S3](AWS_solution_architect/docs/services/s3.md) benötigt, oder eine 
+das Schreibberechtigungen für [S3](../services/s3.md) benötigt, oder eine 
 * eine Flotte von [EC2](docs/EC2.md)-Instanzen,
 
 die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
