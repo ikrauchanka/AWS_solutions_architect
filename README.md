@@ -8,7 +8,7 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 2. [IAM](docs/services/IAM.md) ([Identity Access Management](docs/practice/commandLine/access_management.md)) [Entwurf eines sichern Zugriffs](docs/practice/drafts/IAM_usecase.md)
 
 3. S-imple S-torage S-ervice, 
-   [s3](docs/services/s3.md)![](docs/pngs/s3_logo.png)
+   [s3](docs/services/s3.md)![Logo](docs/pngs/s3_logo.png)
 
 4. [Cloud Front](docs/services/CloudFront.md), CDN (Content Delivery Network)
 
