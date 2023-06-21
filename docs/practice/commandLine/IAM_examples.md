@@ -19,4 +19,4 @@
 ## Aktuelle Zugriffsrichtlinien anzeigen
 `aws iam list-policies`
 
-[Zurück zum Leitfaden](../../README.md)
+[Zurück zum Leitfaden](../../../README.md)
