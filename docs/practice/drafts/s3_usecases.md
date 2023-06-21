@@ -15,7 +15,7 @@
 ### Wiederherstellen einer vorherigen Version einer Datei aus dem S3-Bucket:
 `aws s3api restore-object --bucket dein-bucket-name --key file-name --version-id version-id`
 ## Big Data Analytics:
-Zugriff auf S3-Daten für Big Data Analytics mit AWS-Diensten wie Amazon Athena oder Amazon EMR.
+Zugriff auf S3-Daten für Big Data Analytics mit AWS-Diensten wie [Amazon Athena](../../../docs/services/Athena.md) oder Amazon EMR.
 ## Content Delivery und Website-Hosting:
 Konfigurieren von S3 für statisches Website-Hosting:
 `aws s3 website s3://dein-bucket-name/ --index-document index.html --error-document error.html`
