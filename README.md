@@ -8,7 +8,7 @@ Dieser Studienleitfaden wird dir dabei helfen, die aktuelle Prüfung zum [AWS Ce
 2. [IAM](docs/services/IAM.md) (Identity Access Management) [Entwurf eines sichern Zugriffs](docs/practice/drafts/IAM_usecase.md)
 
 3. S-imple S-torage S-ervice, 
-   [s3](docs/s3.md)
+   [s3](docs/services/s3.md)
 
 4. [Cloud Front](docs/services/CloudFront.md), CDN (Content Delivery Network)
 
