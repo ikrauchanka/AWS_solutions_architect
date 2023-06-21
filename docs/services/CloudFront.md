@@ -1,1 +1,1 @@
-[Zurück zum Leitfaden](../docs/README.md)
+[Zurück zum Leitfaden](/docs/README.md)
