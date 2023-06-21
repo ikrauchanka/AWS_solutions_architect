@@ -1,4 +1,4 @@
-# IAM Identitäts-Zugriffs-Verwaltung
+# IAM (Identitäts-Zugriffs-Verwaltung)
 
 ## Kurz und bündig:
 
