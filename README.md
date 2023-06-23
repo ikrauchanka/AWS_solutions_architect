@@ -10,6 +10,6 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 3. S-imple S-torage S-ervice, 
    [s3](docs/services/s3.md)
 
-4. [Cloud Front](docs/services/CloudFront.md), CDN (Content Delivery Network)
+4. [Cloud Front](docs/services/CloudFront.md), CDN ([Content Delivery Network](https://de.wikipedia.org/wiki/Content_Delivery_Network))
 
 5. [Snow Ball](docs/services/SnowBall.md)
