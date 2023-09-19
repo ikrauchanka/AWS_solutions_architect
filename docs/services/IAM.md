@@ -42,4 +42,3 @@ die Berechtigungen richtig festlegen können, verwenden sie Richtlinien. Richtli
 
 ![Zugriffsmanagement](../../docs/pngs/policies.png)
 
-![Logo](../../docs/pngs/IAM_logo.png)
