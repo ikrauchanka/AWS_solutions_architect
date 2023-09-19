@@ -6,7 +6,7 @@
 ## IAM [Entitäten](https://de.wikipedia.org/wiki/Entität)
 
 ### Root User:
-Der AWS Root User ist der erste Benutzeraccount, der bei der Erstellung eines neuen AWS-Kontos erstellt wird. Dieser Benutzer hat die höchsten Berechtigungen und Kontrollen über das AWS-Konto und ist daher von entscheidender Bedeutung für die Sicherheit und Verwaltung Ihres AWS-Kontos.
+Der AWS Root User ist der erste Benutzeraccount, der bei der Erstellung eines neuen AWS-Kontos erstellt wird. Dieser Benutzer hat die höchsten Berechtigungen und Kontrollen über das AWS-Konto und ist daher von entscheidender Bedeutung für die Sicherheit und Verwaltung des AWS-Kontos.
 * Vermeiden sie die Standartnutzung des Root Users
   
   - Der Root User sollte nur in seltenen Fällen verwendet werden, z. B. wenn Sie Ihr Konto erstellen oder grundlegende Sicherheitsänderungen vornehmen müssen. Für den täglichen Betrieb und die Verwaltung von AWS-Ressourcen sollten IAM (Identity and Access Management)-Benutzer mit den entsprechenden Berechtigungen erstellt werden.
