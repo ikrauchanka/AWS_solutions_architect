@@ -28,7 +28,7 @@ das Schreibberechtigungen für [s3](../services/s3.md) benötigt, oder eine
 
 die Leseberechtigungen für eine RDS-MySQL-Datenbank benötigen.
 
-### Richtlinien:
+### Richtlinien (Policies):
 Die dokumentierten Regelsätze, die angewendet werden, um den Zugriff zu gewähren oder einzuschränken. Damit 
 * Benutzer,
 * Gruppen oder
