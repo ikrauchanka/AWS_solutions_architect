@@ -2,7 +2,7 @@
 
 Snowball ist eine riesiger physischer Datenträger, der dazu verwendet wird, große Mengen an Daten in AWS zu migrieren. Es handelt sich um eine Daten-Transportlösung im Peta-Byte-Maßstab. Die Verwendung eines physischen Datenträgers wie Snowball hilft, gängige Probleme bei der Übertragung großer Datenmengen zu umgehen, wie hohe Netzwerkkosten, lange Übertragungszeiten und Sicherheitsbedenken. Snowballs sind von Design her äußerst sicher, und sobald der Datentransfer abgeschlossen ist, werden die Snowballs von deinen Daten bereinigt.
 
-Snowball Schlüsselinformationen:
+## Snowball Schlüsselinformationen:
 Snowball ist eine gute Wahl für einen Datentransfer-Job, wenn du:
 * eine sichere und schnelle Datenübertragung im Terabyte- bis Petabyte-Bereich in AWS benötigst.
 Snowball kann auch die richtige Wahl sein, wenn du:
