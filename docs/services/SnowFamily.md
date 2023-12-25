@@ -50,9 +50,9 @@ AWS Snowcone ist somit eine Lösung für den Datentransfer in Umgebungen mit beg
 
 ### 2) Snowball Edge
 
-A) Snowball Edge speicheroptimiert: 80 TB HDD Kapazität
+A) Snowball Edge - speicheroptimiert: 80 TB HDD Kapazität
 
-B) Snowball Edge rechenoptimiert: 42 TB HDD oder 28 TB NVMe Kapazität
+B) Snowball Edge - rechenoptimiert: 42 TB HDD oder 28 TB NVMe Kapazität
 
 * Datenübertragung:
   
