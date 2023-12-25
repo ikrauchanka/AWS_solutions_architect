@@ -10,7 +10,10 @@ Snowball kann auch die richtige Wahl sein, wenn du:
 * häufig große Datenrückstände hast, wenn du dich in einer physisch isolierten Umgebung befindest oder wenn du:
 * in einer Region bist, in der Hochgeschwindigkeits-Internetverbindungen nicht verfügbar oder kostspielig sind.
 
-Als Faustregel gilt: Wenn es länger als eine Woche dauert, um deine Daten mit der ungenutzten Kapazität deiner bestehenden Internetverbindung in AWS hochzuladen, solltest du in Betracht ziehen, Snowball zu verwenden.
+### Als Faustregel gilt: 
+
+- Wenn es länger als eine Woche dauert, um deine Daten mit der ungenutzten Kapazität deiner bestehenden Internetverbindung in AWS hochzuladen, solltest du in Betracht ziehen, Snowball zu verwenden.
+
 Zum Beispiel, wenn du über eine 100 Mb-Verbindung verfügst, die du ausschließlich für die Übertragung deiner Daten verwenden kannst, und du insgesamt 100 TB Daten übertragen musst, wird die Übertragung über diese Verbindung mehr als 100 Tage dauern. Du kannst die gleiche Übertragung in etwa einer Woche mit mehreren Snowballs durchführen.
 Hier ist eine Referenz dafür, wann Snowball in Betracht gezogen werden sollte, basierend auf der Anzahl der Tage, die für dieselbe Übertragung über eine Internetverbindung benötigt würden:
 
