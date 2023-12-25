@@ -39,7 +39,7 @@ Die dokumentierten Regelsätze, die angewendet werden, um den Zugriff zu gewähr
 * Gruppen oder
 * Rollen
 
-die Berechtigungen richtig festlegen können, verwendet man Richtlinien. Richtlinien werden in [JSON](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) geschrieben und Sie können entweder benutzerdefinierte Richtlinien für Ihre spezifischen Anforderungen oder die von AWS festgelegten Standardrichtlinien verwenden.
+die Berechtigungen richtig festlegen können, verwendet man Richtlinien. Richtlinien werden in [JSON](https://de.wikipedia.org/wiki/JavaScript_Object_Notation) geschriebe. Du kannst entweder benutzerdefinierte Richtlinien für deine spezifischen Anforderungen oder die von AWS festgelegten Standardrichtlinien verwenden.
 
 [Entwurf](../practice/drafts/IAM_usecase.md) und [Beispiele](../practice/commandLine/IAM_examples.md)
 
