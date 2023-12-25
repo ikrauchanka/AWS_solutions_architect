@@ -34,6 +34,33 @@ AWS Snowcone ist somit eine Lösung für den Datentransfer in Umgebungen mit beg
 
 ### 2) Snowball Edge
 
+* Datenübertragung:
+Snowball Edge ermöglicht es Kunden, große Mengen an Daten physisch auf das Gerät zu übertragen. Dies ist besonders nützlich in Umgebungen, in denen der Upload großer Datenmengen über das Internet unpraktisch oder zeitaufwändig ist.
+
+* Integrierte Rechenleistung:
+Snowball Edge verfügt über eingebaute Rechenleistung in Form von AWS Lambda-Funktionen und bestimmten EC2-Instanztypen. Dies ermöglicht es, Anwendungen direkt auf dem Gerät auszuführen, ohne dass Daten zuerst in die Cloud übertragen werden müssen. Das ist besonders vorteilhaft für Edge-Computing-Szenarien, bei denen lokale Verarbeitung vor Ort erforderlich ist.
+
+* Vielseitige Anwendungen:
+Snowball Edge kann für verschiedene Anwendungsfälle eingesetzt werden, einschließlich Datenmigration, Datenverarbeitung vor Ort, IoT-Datenaggregation, lokale Speicherung und Bereitstellung von Anwendungen in abgelegenen Umgebungen.
+
+* Robustes Design:
+Das Gerät ist robust gebaut, um widrige Bedingungen standzuhalten, und es kann in Umgebungen mit schwierigen Bedingungen eingesetzt werden.
+
+* Sicherheit:
+Snowball Edge bietet integrierte Sicherheitsfunktionen, einschließlich Verschlüsselung während des Transports und physischer Sicherheitsmaßnahmen am Gerät selbst.
+
+* Clusterbildung:
+Mehrere Snowball Edge-Geräte können zu einem Cluster gruppiert werden, um die Rechenleistung und den Speicherbedarf zu erhöhen. Dies ermöglicht eine bessere Skalierbarkeit für anspruchsvollere Anwendungen.
+
+* Verfügbarkeit von Amazon Services:
+Snowball Edge bietet eine Auswahl von vorinstallierten AWS-Diensten, die direkt vor Ort auf dem Gerät genutzt werden können. Dies erleichtert die nahtlose Integration von Daten und Anwendungen in die AWS-Cloud.
+
+* Unterstützung für Snowball Edge Storage Optimized:
+Es gibt zwei Varianten von Snowball Edge - Standard und Storage Optimized. Die Storage-Optimized-Variante bietet zusätzlichen lokalen Speicherplatz und eignet sich besonders für anwendungsspezifische Workloads mit hohem Speicherbedarf.
+
+![Logo](../../docs/pngs/SnowballEdge.png)
+AWS Snowball Edge ist somit eine leistungsstarke Lösung für den Datentransfer und die lokale Datenverarbeitung in Umgebungen mit begrenzter Konnektivität oder spezifischen Anforderungen an die Rechenleistung vor Ort.
+
 4) Snowmobile
 
 Edge computing (Datenverarbeitung am Rande des Netzwerkes):
