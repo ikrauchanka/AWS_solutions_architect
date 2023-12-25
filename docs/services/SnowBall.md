@@ -61,7 +61,7 @@ Es gibt zwei Varianten von Snowball Edge - Standard und Storage Optimized. Die S
 ![Logo](../../docs/pngs/SnowballEdge.png)
 AWS Snowball Edge ist somit eine leistungsstarke Lösung für den Datentransfer und die lokale Datenverarbeitung in Umgebungen mit begrenzter Konnektivität oder spezifischen Anforderungen an die Rechenleistung vor Ort.
 
-4) Snowmobile
+### 3) Snowmobile
 
 Edge computing (Datenverarbeitung am Rande des Netzwerkes):
 
