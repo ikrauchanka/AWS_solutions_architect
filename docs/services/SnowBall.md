@@ -35,27 +35,35 @@ AWS Snowcone ist somit eine Lösung für den Datentransfer in Umgebungen mit beg
 ### 2) Snowball Edge
 
 * Datenübertragung:
+  
 Snowball Edge ermöglicht es Kunden, große Mengen an Daten physisch auf das Gerät zu übertragen. Dies ist besonders nützlich in Umgebungen, in denen der Upload großer Datenmengen über das Internet unpraktisch oder zeitaufwändig ist.
 
 * Integrierte Rechenleistung:
+  
 Snowball Edge verfügt über eingebaute Rechenleistung in Form von AWS Lambda-Funktionen und bestimmten EC2-Instanztypen. Dies ermöglicht es, Anwendungen direkt auf dem Gerät auszuführen, ohne dass Daten zuerst in die Cloud übertragen werden müssen. Das ist besonders vorteilhaft für Edge-Computing-Szenarien, bei denen lokale Verarbeitung vor Ort erforderlich ist.
 
 * Vielseitige Anwendungen:
+  
 Snowball Edge kann für verschiedene Anwendungsfälle eingesetzt werden, einschließlich Datenmigration, Datenverarbeitung vor Ort, IoT-Datenaggregation, lokale Speicherung und Bereitstellung von Anwendungen in abgelegenen Umgebungen.
 
 * Robustes Design:
+  
 Das Gerät ist robust gebaut, um widrige Bedingungen standzuhalten, und es kann in Umgebungen mit schwierigen Bedingungen eingesetzt werden.
 
 * Sicherheit:
+  
 Snowball Edge bietet integrierte Sicherheitsfunktionen, einschließlich Verschlüsselung während des Transports und physischer Sicherheitsmaßnahmen am Gerät selbst.
 
 * Clusterbildung:
+  
 Mehrere Snowball Edge-Geräte können zu einem Cluster gruppiert werden, um die Rechenleistung und den Speicherbedarf zu erhöhen. Dies ermöglicht eine bessere Skalierbarkeit für anspruchsvollere Anwendungen.
 
 * Verfügbarkeit von Amazon Services:
+  
 Snowball Edge bietet eine Auswahl von vorinstallierten AWS-Diensten, die direkt vor Ort auf dem Gerät genutzt werden können. Dies erleichtert die nahtlose Integration von Daten und Anwendungen in die AWS-Cloud.
 
 * Unterstützung für Snowball Edge Storage Optimized:
+  
 Es gibt zwei Varianten von Snowball Edge - Standard und Storage Optimized. Die Storage-Optimized-Variante bietet zusätzlichen lokalen Speicherplatz und eignet sich besonders für anwendungsspezifische Workloads mit hohem Speicherbedarf.
 
 ![Logo](../../docs/pngs/SnowballEdge.png)
@@ -68,27 +76,35 @@ AWS Snowmobile ist eine extrem leistungsstarke und spezialisierte Lösung für d
 Hier sind die Hauptmerkmale und Funktionen von AWS Snowmobile:
 
 * Exabyte-Scale Transfer:
+  
 Snowmobile wurde speziell für den Transport von Daten im Exabyte-Maßstab entwickelt. Es ist ideal für Unternehmen, die massive Datenmengen haben, die über herkömmliche Netzwerkverbindungen nicht effizient oder praktikabel übertragen werden können.
 
 * 45-Fuß-Container:
+
 Snowmobile kommt in Form eines speziell ausgestatteten 45-Fuß-Container-LKWs. Dieser Container ist mit umfangreichen Sicherheits- und Überwachungseinrichtungen ausgestattet, um sicherzustellen, dass die Daten während des gesamten Transportprozesses geschützt sind.
 
 * Sicherheit und Schutz:
+
 Der Snowmobile-Container ist stark gepanzert und mit mehreren Schutzmechanismen ausgestattet, um physische Sicherheit und Datenschutz zu gewährleisten. Der gesamte Transportprozess ist darauf ausgerichtet, sicher und vertraulich zu sein.
 
 * Vor-Ort-Service:
+
 Ein AWS-Team kommt mit dem Snowmobile-Container zum Standort des Kunden. Die Kunden können ihre Daten direkt vor Ort in den Container laden, ohne sie über das Internet übertragen zu müssen.
 
 * Beschleunigter Datenzugriff:
+
 Snowmobile bietet eine schnelle Übertragungsgeschwindigkeit, da die Daten direkt auf das physische Speichermedium im Container geladen werden. Dies ist besonders vorteilhaft für Organisationen mit enormen Datenmengen, die Zeit und Bandbreite sparen müssen.
 
 * Integration mit AWS:
+
 Nachdem der Snowmobile-Container mit den Daten beladen wurde, wird er sicher zum nächsten AWS-Rechenzentrum transportiert. Dort werden die Daten in die entsprechenden AWS-Services integriert und stehen dann in der Cloud zur Verfügung.
 
 * Ideal für Datenzentren:
+
 Snowmobile eignet sich besonders für Unternehmen mit großen Datenzentren, die eine umfassende Datenmigration in die Cloud planen oder ihre gesamte Dateninfrastruktur in die Cloud verlagern möchten.
 
 * Planung und Koordination:
+
 Die Nutzung von AWS Snowmobile erfordert eine sorgfältige Planung und Koordination zwischen dem Kunden und dem AWS-Team, um einen reibungslosen Datenübertragungsprozess zu gewährleisten.
 
 ![Logo](../../docs/pngs/Snowmobile.png)
