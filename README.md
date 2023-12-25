@@ -14,6 +14,6 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 
 4. [Cloud Front](docs/services/CloudFront.md), CDN ([Content Delivery Network](https://de.wikipedia.org/wiki/Content_Delivery_Network))
 
-5. [Snow Ball](docs/services/SnowBall.md)
+5. [Snow Family](docs/services/SnowBall.md)
 
 6. [Storage Gateway](docs/services/StorageGateway.md)
