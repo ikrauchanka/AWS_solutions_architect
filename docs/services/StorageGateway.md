@@ -4,7 +4,7 @@ Das AWS- Storage Gateway ist ein Dienst, der lokale Umgebungen mit cloudbasierte
 1) [File Gateway](https://aws.amazon.com/de/storagegateway/file/?nc=sn&loc=2&dn=2),
 
    ![Logo](../../docs/pngs/FileGateway.png)
-3) [Volume Gateway]() und
+3) [Volume Gateway](https://aws.amazon.com/de/storagegateway/volume/?nc=sn&loc=2&dn=4) und
 4) [Tape Gateway]().
 
 Storage Gateway Schlüsseldetails:
