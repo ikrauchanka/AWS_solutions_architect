@@ -1,5 +1,5 @@
 # Storage Gateway (Speicherzugang):
-Storage Gateway ist ein Dienst, der lokale Umgebungen mit cloudbasiertem Speicher verbindet, um nahtlos und sicher eine lokale Anwendung mit einem cloudbasierten Speicher-Backend zu integrieren. Storage Gateway gibt es in drei Varianten: File Gateway, Volume Gateway und Tape Gateway.
+Das AWS- Storage Gateway ist ein Dienst, der lokale Umgebungen mit cloudbasiertem Speicher verbindet, um nahtlos und sicher eine lokale Anwendung mit einem cloudbasierten Speicher-Backend zu integrieren. Storage Gateway gibt es in drei Varianten: File Gateway, Volume Gateway und Tape Gateway.
 
 Storage Gateway Schlüsseldetails:
 Der Storage Gateway-Dienst kann entweder ein physisches Gerät oder ein VM-Image sein, das auf einem Host in einem lokalen Rechenzentrum installiert wird. Es fungiert als Brücke zum Senden oder Empfangen von Daten von AWS.
