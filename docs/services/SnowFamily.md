@@ -9,7 +9,7 @@ Die AWS Snow Family representiert hoch-sichere, portable "devices" (Geräte) zum
 
 ## Datenmigration:
 
-### 1) Snowcone (Du trägst selbst sorge um deine eigenen Batterien und Kabel)
+### 1) Snowcone (Du trägst selbst Sorge um deine eigenen Batterien und Kabel)
 
 A) Snowcone - 8 TB HDD
 
