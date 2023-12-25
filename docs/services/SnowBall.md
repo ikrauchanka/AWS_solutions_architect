@@ -13,25 +13,31 @@ Die AWS Snow Family representiert hoch-sichere, portable "devices" (Geräte) zum
 
 * Kompakt und leicht:
 
+
 Snowcone ist kompakt und leicht, was den Transport und Einsatz in verschiedenen Umgebungen erleichtert. Es ist etwa so groß wie ein kleiner Kühler und wiegt nur wenige Kilogramm.
 
 * Robustes Design:
+
 
 Das Gerät ist robust gebaut, um widrigen Bedingungen standzuhalten, was es ideal für den Einsatz in abgelegenen oder anspruchsvollen Umgebungen macht.
 
 * Datentransfer und Verarbeitung vor Ort:
 
+
 Snowcone ermöglicht nicht nur den sicheren Transport von Daten in die AWS-Cloud, sondern bietet auch die Möglichkeit, Daten vor Ort zu verarbeiten. Dies kann besonders nützlich sein, wenn schnelle lokale Verarbeitung erforderlich ist, bevor die Daten in die Cloud übertragen werden.
 
 * Integrierte Sicherheit:
+
 
 Wie andere Mitglieder der AWS Snow-Familie ist Snowcone darauf ausgerichtet, sicherheitsrelevante Anforderungen zu erfüllen. Die Daten werden während des Transports verschlüsselt, und das Gerät selbst ist so konzipiert, dass es physisch sicher ist.
 
 * Vielseitige Anwendungen:
 
+
 Snowcone eignet sich für verschiedene Anwendungsfälle, darunter das Sammeln und Übertragen von IoT-Daten, das Sichern von Daten in entfernten Standorten oder das Durchführen von Edge-Computing-Anwendungen.
 
 * Einfache Nutzung:
+
 
 AWS Snowcone wird in Verbindung mit den AWS Snowball-Diensten verwendet, um den einfachen und sicheren Transfer von Daten in die AWS-Cloud zu ermöglichen. Kunden können das Gerät bestellen, ihre Daten darauf übertragen und es dann an AWS zurücksenden, wo die Daten in die entsprechenden AWS-Services integriert werden.
 
