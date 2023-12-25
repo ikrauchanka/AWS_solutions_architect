@@ -11,6 +11,10 @@ Die AWS Snow Family representiert hoch-sichere, portable "devices" (Geräte) zum
 
 ### 1) Snowcone
 
+A) Snowcone - 8 TB HDD
+
+B) Snowcone SSD - 14 TB SSD
+
 * Kompakt und leicht:
 
 
