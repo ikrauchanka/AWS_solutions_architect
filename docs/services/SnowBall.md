@@ -1,4 +1,60 @@
-# Snow Ball
+# Snow Family
+
+## Überblick:
+Die AWS Snow Family representiert hoch-sichere, portable "devices" (Geräte) zum Sammeln und prozessieren von Daten.
+
+### 1) Entweder "at the edge" (am Rande) oder,
+
+### 2) zum migrieren in und aus AWS.
+
+## Datenmigration:
+
+### 1) Snowcone
+
+
+* Kompakt und leicht:
+Snowcone ist kompakt und leicht, was den Transport und Einsatz in verschiedenen Umgebungen erleichtert. Es ist etwa so groß wie ein kleiner Kühler und wiegt nur wenige Kilogramm.
+
+* Robustes Design:
+Das Gerät ist robust gebaut, um widrigen Bedingungen standzuhalten, was es ideal für den Einsatz in abgelegenen oder anspruchsvollen Umgebungen macht.
+
+* Datentransfer und Verarbeitung vor Ort:
+Snowcone ermöglicht nicht nur den sicheren Transport von Daten in die AWS-Cloud, sondern bietet auch die Möglichkeit, Daten vor Ort zu verarbeiten. Dies kann besonders nützlich sein, wenn schnelle lokale Verarbeitung erforderlich ist, bevor die Daten in die Cloud übertragen werden.
+
+* Integrierte Sicherheit:
+Wie andere Mitglieder der AWS Snow-Familie ist Snowcone darauf ausgerichtet, sicherheitsrelevante Anforderungen zu erfüllen. Die Daten werden während des Transports verschlüsselt, und das Gerät selbst ist so konzipiert, dass es physisch sicher ist.
+
+* Vielseitige Anwendungen:
+Snowcone eignet sich für verschiedene Anwendungsfälle, darunter das Sammeln und Übertragen von IoT-Daten, das Sichern von Daten in entfernten Standorten oder das Durchführen von Edge-Computing-Anwendungen.
+
+* Einfache Nutzung:
+AWS Snowcone wird in Verbindung mit den AWS Snowball-Diensten verwendet, um den einfachen und sicheren Transfer von Daten in die AWS-Cloud zu ermöglichen. Kunden können das Gerät bestellen, ihre Daten darauf übertragen und es dann an AWS zurücksenden, wo die Daten in die entsprechenden AWS-Services integriert werden.
+
+AWS Snowcone ist somit eine Lösung für den Datentransfer in Umgebungen mit begrenztem Platz und speziellen Anforderungen, die dennoch eine robuste und sichere Datenübertragung in die Cloud erfordern.
+
+3) Snowball Edge
+
+4) Snowmobile
+
+Edge computing (Datenverarbeitung am Rande des Netzwerkes):
+
+1) Snowcone
+
+2) Snowball Edge
+
+Aber warum wollen wir Daten mit der AWS Snow Family in oder aus AWS migrieren?
+
+Wenn wir auf die Zeit in Betracht ziehen, die es braucht um Daten zu übertragen, dann kann die Übertragung verhältnismäßig zu viel Zeit in Anspruch nehmen. Deshalb stehen wir vor folgenden Herausforderungen:
+
+* limitierte Konnektivität
+* limitierte Bandbreite
+* hohe Netzwerkkosten
+* geteilte Bandbreiten (am Arbeitsplatz)
+* Stabilität der Konnektivität
+
+Alle diese Fälle begründen die Anwendung von Snow Family
+
+
 
 Snowballs sind große physische Datenträger, die dazu verwendet werden, große Mengen an Daten in AWS zu migrieren. Es handelt sich um eine Daten-Transportlösung im Peta-Byte-Maßstab. Die Verwendung physischer Datenträger wie Snowballs hilft, gängige Probleme bei der Übertragung großer Datenmengen zu umgehen, wie hohe Netzwerkkosten, lange Übertragungszeiten und Sicherheitsbedenken. Snowballs sind von Design her äußerst sicher, und sobald der Datentransfer abgeschlossen ist, werden die Snowballs von deinen Daten bereinigt.
 
