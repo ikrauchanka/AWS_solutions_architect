@@ -95,7 +95,7 @@ AWS Snowmobile ist eine extrem leistungsstarke und spezialisierte Lösung für d
 
 Hier sind die Hauptmerkmale und Funktionen von AWS Snowmobile:
 
-1 Exabyte = 1.000 Petabyte = 1.000.000 Terabytes
+!-- 1 Exabyte = 1.000 Petabyte = 1.000.000 Terabytes --!
 
 * Exabyte-Scale Transfer:
   
