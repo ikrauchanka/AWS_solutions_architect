@@ -32,7 +32,7 @@ AWS Snowcone wird in Verbindung mit den AWS Snowball-Diensten verwendet, um den 
 ![Logo](../../docs/pngs/Snowcone.png)
 AWS Snowcone ist somit eine Lösung für den Datentransfer in Umgebungen mit begrenztem Platz und speziellen Anforderungen, die dennoch eine robuste und sichere Datenübertragung in die Cloud erfordern.
 
-3) Snowball Edge
+### 2) Snowball Edge
 
 4) Snowmobile
 
