@@ -1,4 +1,6 @@
 # [Storage Gateway](https://aws.amazon.com/de/storagegateway/features/?nc=sn&loc=2&dn=1) (Speicherzugang):
+
+![Logo](../../docs/pngs/StorageGateway.png)
 Das AWS- Storage Gateway ist ein Dienst, der lokale Umgebungen mit cloudbasiertem Speicher verbindet, um nahtlos und sicher eine lokale Anwendung mit einem cloudbasierten Speicher-Backend zu integrieren. Storage Gateways gibt es in drei Varianten: 
 
 1) [File Gateway](https://aws.amazon.com/de/storagegateway/file/?nc=sn&loc=2&dn=2),
