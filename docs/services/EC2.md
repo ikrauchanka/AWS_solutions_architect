@@ -19,7 +19,7 @@ Bei der Instanzenerstellung versucht EC2, die Instanz so zu platzieren, dass dei
 
 Beim Starten einer neuen EC2-Instanz kannst du [Benutzerdaten](https://docs.aws.amazon.com/de_de/AWSEC2/latest/UserGuide/instancedata-add-user-data.html) (*Spezifiziere Benutzerdaten, um Befehle oder ein Befehlsskript bereitzustellen, das beim Start deiner Instance ausgeführt wird. Die Eingabe wird beim Start deiner Instance [base64](https://de.wikipedia.org/wiki/Base64)-kodiert*) an die Instanz übergeben, um automatisierte Konfigurationsaufgaben oder Skripte auszuführen.
 
-Die Standard-IP-Adresse einer EC2-Instanz wird freigegeben, wenn die Instanz gestoppt ist. Bei Bedarf an einer dauerhaften öffentlichen IP-Adresse verwendest du eine Elastic IP-Adresse.
+Die Standard-IP-Adresse einer EC2-Instanz wird freigegeben, wenn die Instanz gestoppt ist. Bei Bedarf an einer dauerhaften öffentlichen IP-Adresse verwendest du eine [Elastic IP](../../docs/services/ElasticIP.md)-Adresse.
 
 Wenn du eine SQL-Datenbank selbst verwalten musst, kann EC2 eine solide Alternative zu RDS sein. Für hohe Verfügbarkeit solltest du mindestens eine weitere EC2-Instanz in einer separaten Verfügbarkeitszone haben.
 
