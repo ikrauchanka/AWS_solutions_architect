@@ -1,7 +1,7 @@
 # [Snow Family](https://aws.amazon.com/de/snow/?nc2=type_a)
 
 ## Überblick:
-Die AWS Snow Family representiert hoch-sichere, portable "devices" (Geräte) zum Sammeln und prozessieren von Daten.
+Die AWS Snow Family representiert hoch-sichere, portable Geräte zum Sammeln und prozessieren von Daten.
 
 ### 1) Entweder "at the edge" (am Rande) oder,
 
