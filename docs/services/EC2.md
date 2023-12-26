@@ -1,1 +1,65 @@
+EC2 einfach erklärt:
+EC2 erstellt anpassbare Serverinstanzen, die schnell skaliert werden können. Eine Instanz ist ein virtueller Server in der Cloud. Mit Amazon EC2 kannst du das Betriebssystem und die Anwendungen konfigurieren, die auf deiner Instanz laufen. Die Konfiguration bei der Inbetriebnahme entspricht einer Live-Kopie des von dir angegebenen Amazon Machine Image (AMI). EC2 ermöglicht eine schnelle Bereitstellung und Hoch- oder Herunterskalierung von Instanzen. Du zahlst nur für die Ressourcen, die du nutzt, und nur, solange deine Instanz läuft. Während des Betriebs erfolgt die Abrechnung nach CPU, Speicher, Speicherplatz und Netzwerk. Im gestoppten Zustand fallen nur Kosten für den EBS-Speicher an.
+
+Wichtige Details zu EC2:
+Du kannst verschiedene Instanztypen aus einer einzigen AMI starten. Ein Instanztyp bestimmt im Wesentlichen die Hardware des Hostcomputers für deine Instanz. Jeder Instanztyp bietet unterschiedliche Rechen- und Speicherfähigkeiten. Die Auswahl eines Instanztyps sollte auf den Anforderungen deiner Anwendung oder Software basieren.
+
+Es besteht die Möglichkeit, dedizierte Hardware (dedicated tenancy) für deine Instanz zu verwenden, was exklusiven Zugriff auf physische Hardware in einem AWS-Rechenzentrum bedeutet. Dies ist kostspielig, aber sinnvoll, wenn du mit Technologien arbeitest, die strenge Lizenzrichtlinien haben.
+
+Mit EC2 VM Import kannst du vorhandene VMs in AWS importieren, solange diese VMware ESX, VMware Workstation, Microsoft Hyper-V oder Citrix Xen Virtualisierungsformate verwenden.
+
+Bei der Instanzenerstellung versucht EC2, die Instanz so zu platzieren, dass deine VMs auf verschiedenen Hardwarekomponenten verteilt werden, um Ausfälle an einem Ort zu begrenzen. Platzierungsgruppen können verwendet werden, um die Platzierung von voneinander abhängigen Instanzen zu beeinflussen.
+
+Beim Starten einer neuen EC2-Instanz kannst du Benutzerdaten an die Instanz übergeben, um automatisierte Konfigurationsaufgaben oder Skripte auszuführen.
+
+Die Standard-IP-Adresse einer EC2-Instanz wird freigegeben, wenn die Instanz gestoppt ist. Bei Bedarf an einer dauerhaften öffentlichen IP-Adresse verwendest du eine Elastic IP-Adresse.
+
+Wenn du eine SQL-Datenbank selbst verwalten musst, kann EC2 eine solide Alternative zu RDS sein. Für hohe Verfügbarkeit solltest du mindestens eine weitere EC2-Instanz in einer separaten Verfügbarkeitszone haben.
+
+Ein Golden Image ist einfach ein AMI, das vollständig nach deinen Wünschen angepasst wurde und alle notwendigen Software-/Daten-/Konfigurationsdetails enthält, um neue Instanzen zu starten.
+
+Instanzstatusüberprüfungen überwachen die Gesundheit des laufenden EC2-Servers, Systemstatusüberprüfungen überwachen die Gesundheit des zugrunde liegenden Hypervisors.
+
+EC2-Instanzpreise:
+On-Demand-Instanzen basieren auf einem festen Stundensatz und können jederzeit gestartet und gestoppt werden, ohne langfristige Verpflichtungen.
+
+Reserved Instances bieten exklusive Nutzung zu reduzierten Preisen für 1 oder 3 Jahre.
+
+Spot Instances nutzen überschüssige Kapazitäten von Amazon und erfordern finanzielle Gebote. Sie sind ideal für flexible Workloads mit start- und endbaren Zeiten.
+
+Standard Reserved vs. Convertible Reserved vs. Scheduled Reserved:
+Standard Reserved Instances haben unflexible Reservierungen mit 75% Rabatt. Sie können nicht zwischen Regionen verschoben werden.
+
+Convertible Reserved Instances haben 54% Rabatt und ermöglichen die Änderung des Instanztyps.
+
+Scheduled Reserved Instances sind nach einem festgelegten Zeitplan reserviert und eignen sich für zeitlich begrenzte Workloads.
+
+EC2-Instanzlebenszyklus:
+Die Tabelle zeigt verschiedene Zustände, die eine VM zu einem bestimmten Zeitpunkt haben kann, mit entsprechender Abrechnung.
+
+EC2-Sicherheit:
+Bei der Bereitstellung einer EC2-Instanz bist du für das Management des Gastbetriebssystems, Anwendungssoftware, und die Konfiguration der AWS-Firewall (Security Group) verantwortlich.
+
+Die Termination Protection ist standardmäßig deaktiviert und sollte aktiviert werden, um versehentliches Löschen zu verhindern.
+
+EC2 verwendet Public-Key-Kryptografie für die Verschlüsselung von Anmeldeinformationen.
+
+Die Verschlüsselung der Root-Volume ist während der Erstellung der Instanz oder mit Drittanbieter-Tools möglich.
+
+EC2 Placement Groups:
+Platzierungsgruppen bieten eine Balance zwischen Risikotoleranz und Netzwerkleistung für EC2-Instanzen.
+
+Es gibt drei Arten von Platzierungsgruppen: Clustered, Spread und Partitioned.
+
+Clustered Gruppen sind für Anwendungen mit niedrigster Latenz und höchster Netzwerkdurchsatz empfohlen.
+
+Spread Gruppen isolieren einzelne Instanzen für Anwendungen mit wenigen kritischen Instanzen.
+
+Partitioned Gruppen bieten eine Balance zwischen Risiko und Netzwerkleistung.
+
+Instanzen können in eine Platzierungsgruppe verschoben werden, wenn sie gestoppt sind. Einzigartige Namen sind erforderlich.
+
+Bitte beachte, dass bei Instanzbeendigung Reserved Instances bis zum Ende der Vertragslaufzeit abgerechnet werden.
+
+
 [Zurück zum Leitfaden](../../README.md)
