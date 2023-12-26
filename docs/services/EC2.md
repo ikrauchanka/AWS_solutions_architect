@@ -1,4 +1,4 @@
-# Elastic C-ompute C-loud EC2 
+# Elastic C-ompute C-loud (EC2) 
 
 einfach erklärt:
 
