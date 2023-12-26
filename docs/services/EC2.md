@@ -13,7 +13,7 @@ Es besteht die Möglichkeit, dedizierte Hardware (dedicated tenancy) für deine 
 
 was exklusiven Zugriff auf physische Hardware in einem AWS-Rechenzentrum bedeutet. Dies ist kostspielig, aber sinnvoll, wenn du mit Technologien arbeitest, die strenge Lizenzrichtlinien haben.
 
-Mit EC2 VM Import kannst du vorhandene VMs in AWS importieren, solange diese VMware ESX, VMware Workstation, Microsoft Hyper-V oder Citrix Xen Virtualisierungsformate verwenden.
+Mit [EC2 VM Import](https://aws.amazon.com/de/ec2/vm-import/) kannst du vorhandene VMs in AWS importieren, solange diese [VMware](https://de.wikipedia.org/wiki/VMware) ESX, VMware Workstation, Microsoft [Hyper-V](https://de.wikipedia.org/wiki/Hyper-V) oder [Citrix](https://de.wikipedia.org/wiki/Citrix_Systems) Xen Virtualisierungsformate verwenden.
 
 Bei der Instanzenerstellung versucht EC2, die Instanz so zu platzieren, dass deine VMs auf verschiedenen Hardwarekomponenten verteilt werden, um Ausfälle an einem Ort zu begrenzen. Platzierungsgruppen können verwendet werden, um die Platzierung von voneinander abhängigen Instanzen zu beeinflussen.
 
