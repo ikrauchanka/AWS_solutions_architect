@@ -1,4 +1,6 @@
-EC2 einfach erklärt:
+# Elastic Compute Cloud EC2 
+
+einfach erklärt:
 EC2 erstellt anpassbare Serverinstanzen, die schnell skaliert werden können. Eine Instanz ist ein virtueller Server in der Cloud. Mit Amazon EC2 kannst du das Betriebssystem und die Anwendungen konfigurieren, die auf deiner Instanz laufen. Die Konfiguration bei der Inbetriebnahme entspricht einer Live-Kopie des von dir angegebenen Amazon Machine Image (AMI). EC2 ermöglicht eine schnelle Bereitstellung und Hoch- oder Herunterskalierung von Instanzen. Du zahlst nur für die Ressourcen, die du nutzt, und nur, solange deine Instanz läuft. Während des Betriebs erfolgt die Abrechnung nach CPU, Speicher, Speicherplatz und Netzwerk. Im gestoppten Zustand fallen nur Kosten für den EBS-Speicher an.
 
 Wichtige Details zu EC2:
