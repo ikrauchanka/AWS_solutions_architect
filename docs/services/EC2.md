@@ -17,7 +17,7 @@ was exklusiven Zugriff auf physische Hardware in einem AWS-Rechenzentrum bedeute
 
 Bei der Instanzenerstellung versucht EC2, die Instanz so zu platzieren, dass deine VMs auf verschiedenen Hardwarekomponenten verteilt werden, um Ausfälle an einem Ort zu begrenzen. Platzierungsgruppen können verwendet werden, um die Platzierung von voneinander abhängigen Instanzen zu beeinflussen.
 
-Beim Starten einer neuen EC2-Instanz kannst du Benutzerdaten an die Instanz übergeben, um automatisierte Konfigurationsaufgaben oder Skripte auszuführen.
+Beim Starten einer neuen EC2-Instanz kannst du [Benutzerdaten]() (*Spezifiziere Benutzerdaten, um Befehle oder ein Befehlsskript bereitzustellen, das beim Start deiner Instance ausgeführt wird. Die Eingabe wird beim Start Ihrer Instance base64-kodiert*) an die Instanz übergeben, um automatisierte Konfigurationsaufgaben oder Skripte auszuführen.
 
 Die Standard-IP-Adresse einer EC2-Instanz wird freigegeben, wenn die Instanz gestoppt ist. Bei Bedarf an einer dauerhaften öffentlichen IP-Adresse verwendest du eine Elastic IP-Adresse.
 
