@@ -17,3 +17,5 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 5. [Snow Family](docs/services/SnowFamily.md)
 
 6. [Storage Gateway](docs/services/StorageGateway.md)
+
+7. Elastic C-ompute C-loud, [EC2](docs/services/EC2.md)
