@@ -19,3 +19,5 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 6. [Storage Gateway](docs/services/StorageGateway.md)
 
 7. Elastic C-ompute C-loud, [EC2](docs/services/EC2.md), [EC2 on TikTok (englischsprachig)](https://www.tiktok.com/@amazonwebservices/video/7275064270499499310?q=AWS%20ABC%27s&t=1703635841173)
+
+30. [Lambda](docs/services/Lambda.md), [Lambda on TikTok (englischsprachig)](https://www.tiktok.com/@morganwilliscloud/video/7298753496118086942?q=AWS%20ABC%27s&t=1703635841173)
