@@ -18,4 +18,4 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 
 6. [Storage Gateway](docs/services/StorageGateway.md)
 
-7. Elastic C-ompute C-loud, [EC2](docs/services/EC2.md)
+7. Elastic C-ompute C-loud, [EC2](docs/services/EC2.md) [EC2 on TikTok](https://www.tiktok.com/@amazonwebservices/video/7275064270499499310?q=AWS%20ABC%27s&t=1703635841173)
