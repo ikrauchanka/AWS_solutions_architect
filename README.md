@@ -3,7 +3,7 @@ Dieser Studienleitfaden wird dir dabei helfen, die Prüfung zum [AWS Certified S
 
 ## Überblick über die Inhalte:
 
-0. [Skillset](docs/practice/what2do.md) [Was mache ich hier eigentlich?]()
+0. [Skillset](docs/practice/what2do.md), oder [Was mache ich hier eigentlich?]()
 
 1. [Einführung](https://de.wikipedia.org/wiki/Amazon_Web_Services) ([Exam Guide](docs/pdfs/Exam-Guide.pdf)) [AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) ([Einführungsvideo](https://www.youtube.com/watch?v=up4ad0fDfQQ)) ([Grundlagenvideo](https://www.youtube.com/watch?v=dytvGWM86U8))
 
