@@ -4,101 +4,94 @@
 Die AWS Snow Family representiert hoch-sichere, portable Geräte zum Sammeln und prozessieren von Daten.
 
 ### 1) Entweder "at the edge" (am Rande) oder,
-
 ### 2) zum migrieren in und aus AWS.
 
 ## Datenmigration:
 
 ### 1) Snowcone (Du trägst selbst Sorge um deine eigenen Batterien und Kabel ; )
 
-A) Snowcone - 8 TB HDD
-
-B) Snowcone SSD - 14 TB SSD
+A) [Snowcone - 8 TB HDD](https://docs.aws.amazon.com/snowcone/latest/ug/whatissnowcone.html)
+B) [Snowcone SSD - 14 TB SSD](https://docs.aws.amazon.com/snowcone/latest/ug/whatissnowcone.html)
 
 * Kompakt und leicht:
-
 
 Snowcone ist kompakt und leicht, was den Transport und Einsatz in verschiedenen Umgebungen erleichtert. Es ist etwa so groß wie ein kleiner Kühler und wiegt nur wenige Kilogramm.
 
 * Robustes Design:
 
-
 Das Gerät ist robust gebaut, um widrigen Bedingungen standzuhalten, was es ideal für den Einsatz in abgelegenen oder anspruchsvollen Umgebungen macht.
 
 * Datentransfer und Verarbeitung vor Ort:
-
 
 Snowcone ermöglicht nicht nur den sicheren Transport von Daten in die AWS-Cloud, sondern bietet auch die Möglichkeit, Daten vor Ort zu verarbeiten. Dies kann besonders nützlich sein, wenn schnelle lokale Verarbeitung erforderlich ist, bevor die Daten in die Cloud übertragen werden.
 
 * Integrierte Sicherheit:
 
-
 Wie andere Mitglieder der AWS Snow-Familie ist Snowcone darauf ausgerichtet, sicherheitsrelevante Anforderungen zu erfüllen. Die Daten werden während des Transports verschlüsselt, und das Gerät selbst ist so konzipiert, dass es physisch sicher ist.
 
 * Vielseitige Anwendungen:
-
 
 Snowcone eignet sich für verschiedene Anwendungsfälle, darunter das Sammeln und Übertragen von IoT-Daten, das Sichern von Daten in entfernten Standorten oder das Durchführen von Edge-Computing-Anwendungen.
 
 * Einfache Nutzung:
 
-
 AWS Snowcone wird in Verbindung mit den AWS Snowball-Diensten verwendet, um den einfachen und sicheren Transfer von Daten in die AWS-Cloud zu ermöglichen. Kunden können das Gerät bestellen, ihre Daten darauf übertragen und es dann an AWS zurücksenden, wo die Daten in die entsprechenden AWS-Services integriert werden.
 
 ![Logo](../../docs/pngs/Snowcone.png)
+
 AWS Snowcone ist somit eine Lösung für den Datentransfer in Umgebungen mit begrenztem Platz und speziellen Anforderungen, die dennoch eine robuste und sichere Datenübertragung in die Cloud erfordern.
 
 ### 2) Snowball Edge
 
-A) Snowball Edge - speicheroptimiert: 80 TB HDD Kapazität
-
-B) Snowball Edge - rechenoptimiert: 42 TB HDD oder 28 TB NVMe Kapazität
+A) [Snowball Edge - speicheroptimiert: 80 TB HDD Kapazität](https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball-edge-storage.html)
+B) [Snowball Edge - rechenoptimiert: 42 TB HDD oder 28 TB NVMe Kapazität](https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball-edge-storage.html)
 
 * Datenübertragung:
-  
+
 Snowball Edge ermöglicht es Kunden, große Mengen an Daten physisch auf das Gerät zu übertragen. Dies ist besonders nützlich in Umgebungen, in denen der Upload großer Datenmengen über das Internet unpraktisch oder zeitaufwändig ist.
 
 * Integrierte Rechenleistung:
-  
+
 Snowball Edge verfügt über eingebaute Rechenleistung in Form von AWS Lambda-Funktionen und bestimmten EC2-Instanztypen. Dies ermöglicht es, Anwendungen direkt auf dem Gerät auszuführen, ohne dass Daten zuerst in die Cloud übertragen werden müssen. Das ist besonders vorteilhaft für Edge-Computing-Szenarien, bei denen lokale Verarbeitung vor Ort erforderlich ist.
 
 * Vielseitige Anwendungen:
-  
+
 Snowball Edge kann für verschiedene Anwendungsfälle eingesetzt werden, einschließlich Datenmigration, Datenverarbeitung vor Ort, IoT-Datenaggregation, lokale Speicherung und Bereitstellung von Anwendungen in abgelegenen Umgebungen.
 
 * Robustes Design:
-  
+
 Das Gerät ist robust gebaut, um widrige Bedingungen standzuhalten, und es kann in Umgebungen mit schwierigen Bedingungen eingesetzt werden.
 
 * Sicherheit:
-  
+
 Snowball Edge bietet integrierte Sicherheitsfunktionen, einschließlich Verschlüsselung während des Transports und physischer Sicherheitsmaßnahmen am Gerät selbst.
 
 * Clusterbildung:
-  
+
 Mehrere Snowball Edge-Geräte können zu einem Cluster gruppiert werden, um die Rechenleistung und den Speicherbedarf zu erhöhen. Dies ermöglicht eine bessere Skalierbarkeit für anspruchsvollere Anwendungen.
 
 * Verfügbarkeit von Amazon Services:
-  
+
 Snowball Edge bietet eine Auswahl von vorinstallierten AWS-Diensten, die direkt vor Ort auf dem Gerät genutzt werden können. Dies erleichtert die nahtlose Integration von Daten und Anwendungen in die AWS-Cloud.
 
 * Unterstützung für Snowball Edge Storage Optimized:
-  
+
 Es gibt zwei Varianten von Snowball Edge - Standard und Storage Optimized. Die Storage-Optimized-Variante bietet zusätzlichen lokalen Speicherplatz und eignet sich besonders für anwendungsspezifische Workloads mit hohem Speicherbedarf.
 
 ![Logo](../../docs/pngs/SnowballEdge.png)
+
 AWS Snowball Edge ist somit eine leistungsstarke Lösung für den Datentransfer und die lokale Datenverarbeitung in Umgebungen mit begrenzter Konnektivität oder spezifischen Anforderungen an die Rechenleistung vor Ort.
 
 ### 3) Snowmobile
+
+[AWS Snowmobile Dokumentation](https://aws.amazon.com/de/snowmobile/)
 
 AWS Snowmobile ist eine extrem leistungsstarke und spezialisierte Lösung für den Transfer sehr großer Datenmengen in die AWS-Cloud. Im Wesentlichen handelt es sich dabei um einen physischen, hochsicheren Container in Form eines 45-Fuß-Lastwagens, der dafür entwickelt wurde, riesige Mengen an Daten aus einem lokalen Rechenzentrum direkt in die Cloud zu transportieren.
 
 Hier sind die Hauptmerkmale und Funktionen von AWS Snowmobile:
 
-!-- 1 Exabyte = 1.000 Petabyte = 1.000.000 Terabytes --!
-
 * Exabyte-Scale Transfer:
-  
+
 Snowmobile wurde speziell für den Transport von Daten im Exabyte-Maßstab entwickelt. Es ist ideal für Unternehmen, die massive Datenmengen haben, die über herkömmliche Netzwerkverbindungen nicht effizient oder praktikabel übertragen werden können.
 
 * 45-Fuß-Container:
@@ -130,9 +123,10 @@ Snowmobile eignet sich besonders für Unternehmen mit großen Datenzentren, die 
 Die Nutzung von AWS Snowmobile erfordert eine sorgfältige Planung und Koordination zwischen dem Kunden und dem AWS-Team, um einen reibungslosen Datenübertragungsprozess zu gewährleisten.
 
 ![Logo](../../docs/pngs/Snowmobile.png)
+
 AWS Snowmobile ist somit eine maßgeschneiderte Lösung für Unternehmen mit extremen Anforderungen an die Datenübertragung und bietet eine physische und sichere Möglichkeit, Daten im Exabyte-Maßstab in die AWS-Cloud zu bewegen.
 
-Edge computing (Datenverarbeitung am Rande des Netzwerkes):
+## Edge computing (Datenverarbeitung am Rande des Netzwerkes):
 
 1) Snowcone
 
@@ -149,8 +143,6 @@ Wenn wir auf die Zeit in Betracht ziehen, die es braucht um Daten zu übertragen
 * Stabilität der Konnektivität
 
 Alle diese Fälle begründen die Anwendung von Snow Family
-
-
 
 Snowballs sind große physische Datenträger, die dazu verwendet werden, große Mengen an Daten in AWS zu migrieren. Es handelt sich um eine Daten-Transportlösung im Peta-Byte-Maßstab. Die Verwendung physischer Datenträger wie Snowballs hilft, gängige Probleme bei der Übertragung großer Datenmengen zu umgehen, wie hohe Netzwerkkosten, lange Übertragungszeiten und Sicherheitsbedenken. Snowballs sind von Design her äußerst sicher, und sobald der Datentransfer abgeschlossen ist, werden die Snowballs von deinen Daten bereinigt.
 
@@ -175,5 +167,6 @@ Snowball Edge und Snowmobile:
 
 Snowball Edge ist eine spezielle Art von Snowball, die sowohl über Rechen- als auch über Speicherfunktionen über AWS Lambda und bestimmte EC2-Instanztypen verfügt. Das bedeutet, dass du Code in deinem Snowball ausführen kannst, während deine Daten auf dem Weg zu einem Amazon Rechenzentrum sind. Dies ermöglicht die Unterstützung von lokalen Workloads an abgelegenen oder offline befindlichen Standorten, und daher muss Snowball Edge nicht auf einen Datentransferservice beschränkt sein. Ein interessanter Anwendungsfall ist bei Flugzeugen. Flugzeuge fliegen manchmal mit Snowball Edges an Bord, damit sie große Mengen von Flugdaten speichern und die für die eigenen Systeme des Flugzeugs erforderlichen Funktionen berechnen können. Snowball Edges können auch lokal gruppiert werden, um eine noch bessere Leistung zu erzielen.
 Snowmobile ist eine Daten-Transportlösung im Exabyte-Maßstab. Es handelt sich um eine Lösung für den Transport von 100 Petabyte Daten und befindet sich in einem 45 Fuß langen Frachtcontainer, der von einem Sattelschlepper gezogen wird. Diese massive Übertragung macht Sinn, wenn du dein gesamtes Rechenzentrum mit Jahren an Daten in die Cloud verschieben möchtest.
+
 
 [Zurück zum Leitfaden](../../README.md)
